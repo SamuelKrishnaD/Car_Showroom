@@ -4,7 +4,7 @@ let currentIndex = 0;
 
 function showImage(index) {
   showroomCarousel.innerHTML = `
-        <img src="../Assets/showRoomCarousel${
+        <img src="./Assets/showRoomCarousel${
           index + 1
         }.png" alt="Showroom Image ${index + 1}" class="fade"/>
       `;
