@@ -1,0 +1,397 @@
+.showroom-jumbotron {
+  position: relative;
+  width: 100%;
+  height: 760px;
+  overflow: hidden;
+  color: white;
+}
+
+.showroom-jumbotron img {
+  width: 100%;
+  height: 760px;
+  object-fit: cover;
+  filter: brightness(0.3);
+}
+
+.showroom-jumbotron h1 {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 2;
+  text-align: right;
+  font-size: 72px;
+}
+
+.showroom-carousel {
+  display: flex;
+  font-size: 52px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.showroom-carousel h2 {
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.showroom-carousel-content {
+  display: flex;
+  gap: 36px;
+}
+
+.carousel-pict {
+  width: 1200px;
+  height: 560px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.carousel-pict img {
+  width: 100%;
+  height: 760px;
+  object-fit: cover;
+  filter: brightness(0.85);
+  border-bottom: 1px solid white;
+  padding-bottom: 12px;
+}
+
+.showroom-prev-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showroom-prev-next button {
+  background: transparent;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+  transition: opacity 300ms ease-in-out;
+}
+
+.showroom-prev-next button:hover {
+  opacity: 1;
+}
+
+.showroom-prev-next img {
+  width: 36px;
+  height: 36px;
+}
+
+.showroom-prev {
+  transform: rotate(180deg);
+}
+
+/* Showroom Gallery */
+.showroom-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-row1 {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 48px;
+  margin-right: 48px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid white;
+}
+
+.gallery-row1-pict {
+  overflow: hidden;
+  border-radius: 8px;
+  width: 450px;
+}
+
+.gallery-row1 img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.gallery-row2 {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 48px;
+  margin-left: 48px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid white;
+}
+
+.gallery-row2-pict {
+  overflow: hidden;
+  border-radius: 8px;
+  width: 450px;
+}
+
+.gallery-row2 img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.gallery-row3 {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 48px;
+  margin-right: 48px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid white;
+}
+
+.gallery-row3-pict {
+  overflow: hidden;
+  border-radius: 8px;
+  width: 450px;
+}
+
+.gallery-row3 img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Showroom information */
+
+.showroomInformation {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.information-box {
+  width: 100%;
+  max-width: 1200px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.information-title {
+  font-size: 36px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #444;
+  border-bottom: 1px solid #444;
+}
+
+.information-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.information-contacts {
+  flex: 1;
+}
+
+.information-contacts-content {
+  margin-top: 12px;
+}
+
+.information-contacts-content-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #444;
+  text-align: center;
+  border-bottom: 1px solid #444;
+  padding-bottom: 6px;
+}
+
+.information-contacts p {
+  margin: 8px 0;
+}
+
+.information-contacts-social-media {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.information-contacts-social-media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #444;
+  transition: background-color 0.3s;
+}
+
+.information-contacts-social-media a img {
+  width: 24px;
+}
+
+.information-contacts-social-media a:hover {
+  background-color: #666;
+}
+
+.opening-hours-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #444;
+  text-align: center;
+  border-bottom: 1px solid #444;
+  padding-bottom: 6px;
+  padding-top: 4px;
+}
+.opening-hours {
+  flex: 1;
+}
+
+.opening-hours p {
+  margin: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .showroom-jumbotron {
+    height: 400px;
+  }
+
+  .showroom-jumbotron img {
+    height: 400px;
+  }
+
+  .showroom-jumbotron h1 {
+    font-size: 36px;
+    top: 10%;
+    right: 5%;
+  }
+
+  .showroom-carousel h2 {
+    font-size: 32px;
+  }
+
+  .showroom-carousel-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .showroom-prev-next {
+    padding: 0 24px;
+  }
+
+  .showroom-prev-next img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .carousel-pict {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-pict img {
+    width: 250px;
+    height: 200px;
+    filter: brightness(0.85);
+    border-bottom: none;
+  }
+
+  .gallery-row1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px 0;
+    padding: 12px;
+    border-bottom: none;
+  }
+
+  .gallery-row2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px 0;
+    padding: 12px;
+    border-bottom: none;
+  }
+
+  .gallery-row3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px 0;
+    padding: 12px;
+    border-bottom: none;
+  }
+
+  .gallery-row1-pict {
+    width: 100%;
+  }
+
+  .gallery-row2-pict {
+    width: 100%;
+  }
+
+  .gallery-row3-pict {
+    width: 100%;
+  }
+
+  .gallery-row1 img {
+    height: auto;
+  }
+
+  .gallery-row2 img {
+    height: auto;
+  }
+
+  .gallery-row3 img {
+    height: auto;
+  }
+
+  .showroomInformation {
+    padding: 24px 0;
+  }
+
+  .information-box {
+    padding: 12px;
+  }
+
+  .information-title {
+    font-size: 28px;
+  }
+
+  .information-contacts-content-title,
+  .opening-hours-title {
+    font-size: 20px;
+  }
+
+  .information-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information-contacts,
+  .opening-hours {
+    width: 100%;
+  }
+}
