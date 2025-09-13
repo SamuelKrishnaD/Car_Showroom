@@ -7,7 +7,7 @@ const carsData = [
   // Top Tier
   {
     name: "Mclaren 765LT Coupe",
-    image: "./Assets/McLaren_765lt.png",
+    image: "../Assets/McLaren_765lt.png",
     description: "",
     price: "Rp12.500.000.000,00",
     isTopTier: true,
@@ -17,7 +17,7 @@ const carsData = [
 
   {
     name: "Lamborghini Revuelto",
-    image: "./Assets/Lamborghini_Revuelto.png",
+    image: "../Assets/Lamborghini_Revuelto.png",
     description: "",
     price: "Rp21.600.000.000,00",
     isTopTier: true,
@@ -27,7 +27,7 @@ const carsData = [
 
   {
     name: "Bugatti Divo",
-    image: "./Assets/Buggati_Divo.png",
+    image: "../Assets/Buggati_Divo.png",
     description: "",
     price: "Rp92.700.000.000,00",
     isTopTier: true,
@@ -37,7 +37,7 @@ const carsData = [
 
   {
     name: "Ferrari LaFerrari Aperta",
-    image: "./Assets/LaFerrari_Aperta.png",
+    image: "../Assets/LaFerrari_Aperta.png",
     description: "",
     price: "Rp129.000.000.000,00",
     isTopTier: true,
@@ -47,7 +47,7 @@ const carsData = [
 
   {
     name: "Lamborghini Huracan Evo Spyder",
-    image: "./Assets/Huracan_Evo_Spyder.png",
+    image: "../Assets/Huracan_Evo_Spyder.png",
     description: "",
     price: "Rp12.000.000.000,00",
     isTopTier: true,
@@ -58,7 +58,7 @@ const carsData = [
   //Featured
   {
     name: "Mclaren Artura",
-    image: "./Assets/Mclaren_Artura.png",
+    image: "../Assets/Mclaren_Artura.png",
     description: "",
     price: "Rp10.000.000.000,00",
     isTopTier: false,
@@ -68,7 +68,7 @@ const carsData = [
 
   {
     name: "Audi R8 Coupe",
-    image: "./Assets/Audi_R8.png",
+    image: "../Assets/Audi_R8.png",
     description: "V10 plus",
     price: "Rp8.500.000.000,00",
     isTopTier: false,
@@ -78,7 +78,7 @@ const carsData = [
 
   {
     name: "Chevrolet Camaro ZL1",
-    image: "./Assets/Camaro_ZL1.png",
+    image: "../Assets/Camaro_ZL1.png",
     description: "",
     price: "Rp3.000.000.000,00",
     isTopTier: false,
@@ -88,7 +88,7 @@ const carsData = [
 
   {
     name: "Porsche 911 Carrera GTS",
-    image: "./Assets/911_Carrera.png",
+    image: "../Assets/911_Carrera.png",
     description: "",
     price: "Rp6.200.000.000,00",
     isTopTier: false,
@@ -98,7 +98,7 @@ const carsData = [
 
   {
     name: "Nissan GT-R Nismo",
-    image: "./Assets/GT-R_Nismo.png",
+    image: "../Assets/GT-R_Nismo.png",
     description: "",
     price: "Rp8.500.000.000,00",
     isTopTier: false,
@@ -108,7 +108,7 @@ const carsData = [
 
   {
     name: "Aston Martin DB 11",
-    image: "./Assets/AstonMartin_DB11.png",
+    image: "../Assets/AstonMartin_DB11.png",
     description: "",
     price: "Rp7.700.000.000,00",
     isTopTier: false,
@@ -119,7 +119,7 @@ const carsData = [
   // New (Not Top tier or Featured)
   {
     name: "Mustang Mach1",
-    image: "./Assets/Mustang_Mach1.png",
+    image: "../Assets/Mustang_Mach1.png",
     description: "",
     price: "Rp3.500.000.000,00",
     isTopTier: false,
@@ -129,7 +129,7 @@ const carsData = [
 
   {
     name: "BMW i7 xDrive60",
-    image: "./Assets/BMW_I7_xDrive.png",
+    image: "../Assets/BMW_I7_xDrive.png",
     description: "",
     price: "Rp3.300.000.000,00",
     isTopTier: false,
@@ -139,7 +139,7 @@ const carsData = [
 
   {
     name: "BMW M4 Competition G82",
-    image: "./Assets/BMW_M4_CompetitionG82.png",
+    image: "../Assets/BMW_M4_CompetitionG82.png",
     description: "",
     price: "Rp2.650.000.000,00",
     isTopTier: false,
@@ -149,7 +149,7 @@ const carsData = [
 
   {
     name: "Mercedes-AMG G 63",
-    image: "./Assets/Mercedes_G63.png",
+    image: "../Assets/Mercedes_G63.png",
     description: "",
     price: "Rp6.600.000.000,00",
     isTopTier: false,
@@ -160,7 +160,7 @@ const carsData = [
   // Used Car
   {
     name: "Porsche 911 Targa 4 GTS",
-    image: "./Assets/911_Targa_4GTS.png",
+    image: "../Assets/911_Targa_4GTS.png",
     description: "",
     price: "Rp5.000.000.000,00",
     isTopTier: false,
@@ -170,7 +170,7 @@ const carsData = [
 
   {
     name: "Mercedes-AMG SL 43",
-    image: "./Assets/Mercedes_Sl43.png",
+    image: "../Assets/Mercedes_Sl43.png",
     description: "",
     price: "Rp3.300.000.000,00",
     isTopTier: false,
@@ -180,7 +180,7 @@ const carsData = [
 
   {
     name: "Aston Martin DB 9 GT Bond",
-    image: "./Assets/AstonMartin_DB9.png",
+    image: "../Assets/AstonMartin_DB9.png",
     description: "",
     price: "Rp5.600.000.000,00",
     isTopTier: false,
@@ -190,7 +190,7 @@ const carsData = [
 
   {
     name: "Ferrari 458",
-    image: "./Assets/Ferrari_458.png",
+    image: "../Assets/Ferrari_458.png",
     description: "",
     price: "Rp6.500.000.000,00",
     isTopTier: false,
@@ -200,7 +200,7 @@ const carsData = [
 
   {
     name: "Audi RS5",
-    image: "./Assets/Audi_Rs5.png",
+    image: "../Assets/Audi_Rs5.png",
     description: "",
     price: "Rp3.000.000.000,00",
     isTopTier: false,
@@ -246,10 +246,10 @@ function updateSlider(index) {
         <!-- Slider Button -->
         <div class="top-tier-slider-buttons">
           <button class="top-tier-prev-button" id="prev-button">
-            <img src="./Assets/whiteArrow.png" alt="Previous" />
+            <img src="../Assets/whiteArrow.png" alt="Previous" />
           </button>
           <button class="top-tier-next-button" id="next-button">
-            <img src="./Assets/whiteArrow.png" alt="Next" />
+            <img src="../Assets/whiteArrow.png" alt="Next" />
           </button>
         </div>
 
@@ -304,7 +304,7 @@ for (let i = 0; i < featuredCar.length; i++) {
             Price : ${featuredCar[i].price}
           </p>
           <a href="./cars.html">
-            Explore More <img src="./Assets/whiteArrow.png" alt=""/>
+            Explore More <img src="../Assets/whiteArrow.png" alt=""/>
           </a>
         </div>
       </div>
