@@ -1,15 +1,17 @@
 # 🚗 DiamondCut Motors
 
 A frontend project for a fictional luxury car dealer website **DiamondCut Motors**.
-This was built as my Semester 2 project, using HTML, CSS, and JavaScript.
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 - **Responsive Design** → adapts to desktop & mobile devices
 - **Interactive Slider & Carousel** → highlight featured cars
 - **Multiple Pages** → Home, Cars, Showroom, About Us, Login  
 ---
+
+## 📖 Project Description
+This project was developed as an individual assignment for the Human-Computer Interaction course in my 2nd semester of college. Built using HTML, CSS, and JavaScript, it taught me how to structure frontend projects, create multiple pages, and implement responsive design principles.
 
 ## 📸 Screenshot
 **Homepage Preview**
