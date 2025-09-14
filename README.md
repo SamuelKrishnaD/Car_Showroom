@@ -1,13 +1,13 @@
 # 🚗 DiamondCut Motors
 
-Merupakan proyek frontend untuk website dealer mobil mewah fiktif **DiamondCut Motors**.  
-Proyek yang saya buat saat semester 2 untuk menampilkan tampilan website **HTML, CSS, dan JavaScript**.
+A frontend project for a fictional luxury car dealer website **DiamondCut Motors**.
+This was built as my Semester 2 project, using HTML, CSS, and JavaScript.
 
 ---
 
 ## ✨ Fitur
-- **Responsive Design** → tampilan menyesuaikan device (desktop & mobile)  
-- **Interactive Slider & Carousel** → menampilkan mobil unggulan  
+- **Responsive Design** → adapts to desktop & mobile devices
+- **Interactive Slider & Carousel** → highlight featured cars
 - **Multiple Pages** → Home, Cars, Showroom, About Us, Login  
 ---
 
